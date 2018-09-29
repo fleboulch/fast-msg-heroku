@@ -71,7 +71,7 @@ out/
 # Maven
 ######################
 /log/
-/target/
+**/target/
 
 ######################
 # Gradle
@@ -142,3 +142,27 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
+######################
+# Ionic
+######################
+*.sw[mnpcod]
+log.txt
+*.sublime-project
+*.sublime-workspace
+
+.sourcemaps/
+.tmp/
+.versions/
+**/coverage/
+**/dist/
+**/temp/
+**/hooks/
+**/platforms/
+**/plugins/
+**/plugins/android.json
+**/plugins/ios.json
+**/www/
+$RECYCLE.BIN/
+
+UserInterfaceState.xcuserstate
