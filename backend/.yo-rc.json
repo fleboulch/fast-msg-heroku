@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.florent.fastmsg",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "monolith",
+    "baseName": "fastmsg",
+    "packageName": "com.florent.fastmsg",
+    "packageFolder": "com/florent/fastmsg",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTc0Yjk2YjE4YWFmMjc4MGM1NDI2MTFmNTJkMmE0NmQ5ZGM5Y2I1MGI4M2U1NzAyNmZhZWM2MWNlZTQ2ZWE4M2IyMzRmMzY5NWIxMDI5M2Y3ZGVhNTJkZTZlY2Y3NGFlNDIzOTY3MjE3YzA2OWFkYzUyZTRjNzI4NDdmODMzZGI=",
+    "enableTranslation": true,
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "skipClient": true
+  }
+}
