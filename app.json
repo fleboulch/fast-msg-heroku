@@ -3,7 +3,7 @@
   "scripts": {
   },
   "env": {
-    "MAVEN_CUSTOM_OPTS": "-Pprod,heroku -DskipTests -DapiBaseUrl=https://fast-msg-heroku-dev-pr-XX.herokuapp.com/api",
+    "MAVEN_CUSTOM_OPTS": "-Pprod,heroku -DskipTests -DapiBaseUrl=https://fast-msg-heroku-dev-pr-2.herokuapp.com/api",
     "NPM_CONFIG_PRODUCTION": "false"
   },
   "formation": {
