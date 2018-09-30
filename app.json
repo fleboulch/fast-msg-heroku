@@ -1,0 +1,23 @@
+{
+  "name": "fast-msg-heroku",
+  "scripts": {
+  },
+  "env": {
+    "MAVEN_CUSTOM_OPTS": "-Pprod,heroku -DskipTests -DapiBaseUrl=https://fast-msg-heroku-dev-pr-XX.herokuapp.com/api",
+    "NPM_CONFIG_PRODUCTION": "false"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}

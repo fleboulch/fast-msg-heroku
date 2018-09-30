@@ -44,7 +44,7 @@
     "ng-jhipster": "0.4.5"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "3.1.9",
+    "@ionic/app-scripts": "3.2.0",
     "typescript": "2.8.1",
     "generator-jhipster": "^4.10.2",
     "@types/node": "9.6.5",
