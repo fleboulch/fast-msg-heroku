@@ -166,3 +166,5 @@ log.txt
 $RECYCLE.BIN/
 
 UserInterfaceState.xcuserstate
+
+ionic/.env.prod

@@ -775,6 +775,22 @@
                         <artifactId>maven-resources-plugin</artifactId>
                         <executions>
                             <execution>
+                                <id>copy-ionic-env</id>
+                                <phase>validate</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>../ionic/</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>../ionic/environment</directory>
+                                            <filtering>true</filtering>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                            <execution>
                                 <id>copy-resources</id>
                                 <phase>prepare-package</phase>
                                 <goals>
@@ -862,6 +878,7 @@
                 </plugins>
             </build>
             <properties>
+                <apiBaseUrl>https://fast-msg-heroku-dev.herokuapp.com/api</apiBaseUrl>
                 <!-- default Spring profiles -->
                 <spring.profiles.active>prod${profile.swagger}${profile.no-liquibase}</spring.profiles.active>
             </properties>
