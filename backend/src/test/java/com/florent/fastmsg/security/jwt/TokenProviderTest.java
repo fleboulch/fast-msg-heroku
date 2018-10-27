@@ -2,8 +2,6 @@ package com.florent.fastmsg.security.jwt;
 
 import com.florent.fastmsg.security.AuthoritiesConstants;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import java.security.Key;
 import java.util.*;
 
