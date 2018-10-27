@@ -4,7 +4,7 @@
       "packageName": "com.florent.fastmsg",
       "nativeLanguage": "en"
     },
-    "jhipsterVersion": "5.3.4",
+    "jhipsterVersion": "5.5.0",
     "applicationType": "monolith",
     "baseName": "fastmsg",
     "packageName": "com.florent.fastmsg",
